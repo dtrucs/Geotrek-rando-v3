@@ -60,6 +60,7 @@ module.exports = withPlugins(plugins, {
   i18n: {
     locales: mergedHeaderConfig.menu.supportedLanguages,
     defaultLocale: mergedHeaderConfig.menu.defaultLanguage,
+    localeDetection: false,
   },
   publicRuntimeConfig: {
     homeBottomHtml: getConfig('../html/homeBottom.html', false),
